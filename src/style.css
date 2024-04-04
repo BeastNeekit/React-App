@@ -1,0 +1,150 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s ease;
+}
+
+.input-field[type="number"] {
+    width: calc(100% - 80px);
+}
+
+.input-field:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+.icon-buttons {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(60px, 1fr));
+    grid-gap: 10px;
+    margin-top: 10px;
+}
+
+.icon-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 8vh;
+    height: 8vh;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-button.selected {
+    background-color: #28a745;
+}
+
+.icon-button:hover {
+    background-color: #0056b3;
+}
+
+.icon-button:focus {
+    outline: none;
+}
+
+.icon-button svg {
+    fill: currentColor;
+    width: 18px;
+    height: 24px;
+}
+
+
+.add-button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    margin-top: 10px;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.add-button:hover {
+    background-color: #218838;
+}
+
+.items-list {
+    margin-top: 20px;
+    list-style: none;
+    padding: 0;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.item-icon {
+    margin-right: 10px;
+}
+
+.item-time {
+    margin-left: auto;
+    font-size: 12px;
+    color: #777;
+    padding-right: 10px;
+}
+.delete-button {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.delete-button:hover {
+    background-color: #c82333;
+}
+
+.delete-button:focus {
+    outline: none;
+}
+
+.delete-button svg {
+    margin-right: 6px; /* Adjust as needed for spacing between icon and text */
+}
+
+.delete-button span {
+    margin-left: 6px; /* Adjust as needed for spacing between icon and text */
+}
+
+
